@@ -1,0 +1,31 @@
+l=[1,2,1.1,2.2,"Tops",True,10,20,1,2,"Python",False]
+
+print(l)
+l.append(5100)
+print(l)
+l1=l.copy()
+print(l)
+l1.append(900)
+print(l)
+print(l1)
+l2=l
+print(l2)
+l2.append(250)
+print(l)
+print(l2)
+print(l.count(1))
+l3=[1100,2200,3300]
+l.append(l3)
+print(l)
+print(l.index(20))
+l.insert(6,10500)
+print(l)
+print(l.pop())
+print(l.pop(2))
+l.remove(2)
+print(l)
+l.reverse()
+print(l)
+for i in l:
+    print(i)
+print(201 in l)
