@@ -1,4 +1,4 @@
-n=int(input("Enter Number : "))
+n=int(input("Enter Number N: "))
 
 if n%2!=0:
     for i in range(3,int(n/2)+1,2):
