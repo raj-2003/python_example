@@ -1,6 +1,2 @@
-#import math
-
-a=False
-print("A = ",a)
-print(type(a))
-#print(math.factorial(12))
+import math
+print(math.factorial(5))
